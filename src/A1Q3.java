@@ -42,13 +42,13 @@ public class A1Q3 {
         //ask user for cost of misc expenses
         System.out.println("What is the cost for the miscellaneous expenses?");
         double misc = input.nextDouble();
-        
+
         //calculate how many tickets must be sold and then display answer
         int ticket = 0;
         double cost = food + dj + hall + decor + staff + misc;
         int ticketAmount = 0;
-        
-        while(ticket < cost){
+
+        while (ticket < cost) {
             ticket = ticket + 35;
             ticketAmount = ticketAmount + 1;
         }

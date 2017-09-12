@@ -19,9 +19,9 @@ public class A1Q7 {
         double rate = 0.014;
         double newPopn = 0;
         int year = 1999;
-        
+
         //perform calculations
-        for(int i = 1999; newPopn <= 10000; i++){
+        for (int i = 1999; newPopn <= 10000; i++) {
             newPopn = popn + popn * rate;
             popn = newPopn;
             year = i + 1;
